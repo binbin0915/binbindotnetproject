@@ -9,3 +9,5 @@ E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.DAL\bin\Debug
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.DAL\bin\Debug\LYZJ.UserLimitMVC.Model.pdb
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.DAL\bin\Debug\EntityFramework.xml
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.DAL\bin\Debug\LYZJ.UserLimitMVC.IDAL.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.DAL\bin\Debug\LYZJ.UserLimitMVC.IDAL.pdb

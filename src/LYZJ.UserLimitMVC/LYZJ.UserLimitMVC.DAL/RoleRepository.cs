@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LYZJ.UserLimitMVC.Model;
+using LYZJ.UserLimitMVC.IDAL;
 namespace LYZJ.UserLimitMVC.DAL
 {
-    class RoleRepository : BaseRepository<Role>
+    public  class RoleRepository : BaseRepository<Role>, IRoleRepository
     {
     }
 }

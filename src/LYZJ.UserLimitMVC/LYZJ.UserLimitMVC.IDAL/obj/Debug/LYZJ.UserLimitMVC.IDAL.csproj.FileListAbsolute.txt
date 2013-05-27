@@ -1,0 +1,10 @@
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.IDAL\bin\Debug\LYZJ.UserLimitMVC.IDAL.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.IDAL\bin\Debug\LYZJ.UserLimitMVC.IDAL.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.IDAL\bin\Debug\LYZJ.UserLimitMVC.Model.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.IDAL\bin\Debug\EntityFramework.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.IDAL\bin\Debug\LYZJ.UserLimitMVC.Model.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.IDAL\bin\Debug\EntityFramework.xml
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.IDAL\obj\Debug\LYZJ.UserLimitMVC.IDAL.csprojResolveAssemblyReference.cache
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.IDAL\obj\Debug\LYZJ.UserLimitMVC.IDAL.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.IDAL\obj\Debug\LYZJ.UserLimitMVC.IDAL.pdb

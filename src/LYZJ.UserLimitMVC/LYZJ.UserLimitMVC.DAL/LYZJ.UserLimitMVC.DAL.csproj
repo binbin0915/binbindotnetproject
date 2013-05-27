@@ -45,18 +45,23 @@
   <ItemGroup>
     <Compile Include="BaseRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepositoryFactory.cs" />
     <Compile Include="RoleRepository.cs" />
     <Compile Include="UserInfoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LYZJ.UserLimitMVC.IDAL\LYZJ.UserLimitMVC.IDAL.csproj">
+      <Project>{3a95c7e8-0576-45a4-b3b8-26738e6f433c}</Project>
+      <Name>LYZJ.UserLimitMVC.IDAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LYZJ.UserLimitMVC.Model\LYZJ.UserLimitMVC.Model.csproj">
       <Project>{1f58a858-149e-48f2-a899-93fc8a37d181}</Project>
       <Name>LYZJ.UserLimitMVC.Model</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

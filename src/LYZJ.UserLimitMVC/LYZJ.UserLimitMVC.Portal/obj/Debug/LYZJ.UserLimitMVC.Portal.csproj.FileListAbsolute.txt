@@ -95,6 +95,6 @@ E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\ko
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\ru\System.Spatial.resources.dll
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\zh-Hans\System.Spatial.resources.dll
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\zh-Hant\System.Spatial.resources.dll
-E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\obj\Debug\LYZJ.UserLimitMVC.Portal.csprojResolveAssemblyReference.cache
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\obj\Debug\LYZJ.UserLimitMVC.Portal.dll
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\obj\Debug\LYZJ.UserLimitMVC.Portal.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\obj\Debug\LYZJ.UserLimitMVC.Portal.csprojResolveAssemblyReference.cache

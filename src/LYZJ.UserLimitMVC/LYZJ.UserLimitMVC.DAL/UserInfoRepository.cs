@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LYZJ.UserLimitMVC.Model;
+using LYZJ.UserLimitMVC.IDAL;
 
 namespace LYZJ.UserLimitMVC.DAL
 {
-    class UserInfoRepository : BaseRepository<UserInfo>
+    public  class UserInfoRepository : BaseRepository<UserInfo>, IUserInfoRepository
     {
     }
 }
