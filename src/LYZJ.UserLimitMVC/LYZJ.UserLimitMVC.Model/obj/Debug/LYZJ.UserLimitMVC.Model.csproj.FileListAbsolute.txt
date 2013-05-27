@@ -1,0 +1,8 @@
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Model\bin\Debug\LYZJ.UserLimitMVC.Model.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Model\bin\Debug\LYZJ.UserLimitMVC.Model.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Model\obj\Debug\LYZJ.UserLimitMVC.Model.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Model\obj\Debug\LYZJ.UserLimitMVC.Model.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Model\bin\Debug\LYZJ.UserLimitMVC.Model.dll.config
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Model\bin\Debug\EntityFramework.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Model\bin\Debug\EntityFramework.xml
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll

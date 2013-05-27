@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="DataModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="DataModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UserInfo" EntityType="DataModel.UserInfo" />
+    <EntitySet Name="Role" EntityType="DataModel.Role" />
+  </EntityContainer>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Uname" Nullable="true" MaxLength="32" />
+    <Property Type="String" Name="Pwd" Nullable="true" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="RoleName" Nullable="true" MaxLength="32" />
+  </EntityType>
+</Schema>

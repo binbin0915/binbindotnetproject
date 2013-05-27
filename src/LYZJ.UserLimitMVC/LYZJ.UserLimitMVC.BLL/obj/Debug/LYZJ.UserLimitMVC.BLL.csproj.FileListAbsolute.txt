@@ -1,0 +1,4 @@
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.BLL\bin\Debug\LYZJ.UserLimitMVC.BLL.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.BLL\bin\Debug\LYZJ.UserLimitMVC.BLL.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.BLL\obj\Debug\LYZJ.UserLimitMVC.BLL.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.BLL\obj\Debug\LYZJ.UserLimitMVC.BLL.pdb

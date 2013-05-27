@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="DataModelStoreContainer">
+    <EntitySet Name="UserInfo集" EntityType="DataModel.Store.UserInfo集" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Role集" EntityType="DataModel.Store.Role集" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="UserInfo集">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Uname" Type="nvarchar" Nullable="true" MaxLength="32" />
+    <Property Name="Pwd" Type="nvarchar" Nullable="true" MaxLength="16" />
+  </EntityType>
+  <EntityType Name="Role集">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" Nullable="true" MaxLength="32" />
+  </EntityType>
+</Schema>

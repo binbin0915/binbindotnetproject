@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LYZJ.UserLimitMVC.Portal", "LYZJ.UserLimitMVC.Portal\LYZJ.UserLimitMVC.Portal.csproj", "{0797EBAA-2E63-4893-893E-90539A3F083E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LYZJ.UserLimitMVC.Model", "LYZJ.UserLimitMVC.Model\LYZJ.UserLimitMVC.Model.csproj", "{1F58A858-149E-48F2-A899-93FC8A37D181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LYZJ.UserLimitMVC.Common", "LYZJ.UserLimitMVC.Common\LYZJ.UserLimitMVC.Common.csproj", "{640A8937-414F-47DB-BBEF-C29591884836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LYZJ.UserLimitMVC.DAL", "LYZJ.UserLimitMVC.DAL\LYZJ.UserLimitMVC.DAL.csproj", "{F890A2A1-B22B-45A4-B927-F83D7A355E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LYZJ.UserLimitMVC.BLL", "LYZJ.UserLimitMVC.BLL\LYZJ.UserLimitMVC.BLL.csproj", "{B46F303C-976E-4CF6-B8CC-06CAEA5FF039}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0797EBAA-2E63-4893-893E-90539A3F083E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0797EBAA-2E63-4893-893E-90539A3F083E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0797EBAA-2E63-4893-893E-90539A3F083E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0797EBAA-2E63-4893-893E-90539A3F083E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F58A858-149E-48F2-A899-93FC8A37D181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F58A858-149E-48F2-A899-93FC8A37D181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F58A858-149E-48F2-A899-93FC8A37D181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F58A858-149E-48F2-A899-93FC8A37D181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{640A8937-414F-47DB-BBEF-C29591884836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640A8937-414F-47DB-BBEF-C29591884836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640A8937-414F-47DB-BBEF-C29591884836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{640A8937-414F-47DB-BBEF-C29591884836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F890A2A1-B22B-45A4-B927-F83D7A355E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F890A2A1-B22B-45A4-B927-F83D7A355E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F890A2A1-B22B-45A4-B927-F83D7A355E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F890A2A1-B22B-45A4-B927-F83D7A355E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46F303C-976E-4CF6-B8CC-06CAEA5FF039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46F303C-976E-4CF6-B8CC-06CAEA5FF039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46F303C-976E-4CF6-B8CC-06CAEA5FF039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46F303C-976E-4CF6-B8CC-06CAEA5FF039}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
