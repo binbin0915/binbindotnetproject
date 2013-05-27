@@ -25,7 +25,7 @@ namespace LYZJ.UserLimitMVC.Model
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<UserInfo> UserInfo { get; set; }
         public DbSet<Role> Role { get; set; }
+        public DbSet<UserInfo> UserInfo { get; set; }
     }
 }

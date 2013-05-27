@@ -97,4 +97,14 @@ E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\zh
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\zh-Hant\System.Spatial.resources.dll
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\obj\Debug\LYZJ.UserLimitMVC.Portal.dll
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\obj\Debug\LYZJ.UserLimitMVC.Portal.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\LYZJ.UserLimitMVC.BLL.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\LYZJ.UserLimitMVC.IBLL.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\LYZJ.UserLimitMVC.Model.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\LYZJ.UserLimitMVC.IDAL.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\LYZJ.UserLimitMVC.DAL.dll
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\LYZJ.UserLimitMVC.BLL.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\LYZJ.UserLimitMVC.IBLL.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\LYZJ.UserLimitMVC.Model.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\LYZJ.UserLimitMVC.IDAL.pdb
+E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\bin\LYZJ.UserLimitMVC.DAL.pdb
 E:\git\binbindotnetproject\src\LYZJ.UserLimitMVC\LYZJ.UserLimitMVC.Portal\obj\Debug\LYZJ.UserLimitMVC.Portal.csprojResolveAssemblyReference.cache

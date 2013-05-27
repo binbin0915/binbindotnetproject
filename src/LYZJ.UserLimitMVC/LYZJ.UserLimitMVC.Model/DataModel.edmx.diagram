@@ -5,8 +5,8 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="a5710edea5f645b5a50fe0bcae6fb674" Name="关系图1" >
-        <EntityTypeShape EntityType="DataModel.UserInfo" Width="1.5" PointX="2" PointY="1.125" />
-        <EntityTypeShape EntityType="DataModel.Role" Width="1.5" PointX="5.125" PointY="1.375" />
+        <EntityTypeShape EntityType="DataModel.Role" Width="1.5" PointX="8.7047520860586083" PointY="28.572427971555118" />
+        <EntityTypeShape EntityType="DataModel.UserInfo" Width="1.5" PointX="7.5879625620264388" PointY="1.0510447179204994" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
