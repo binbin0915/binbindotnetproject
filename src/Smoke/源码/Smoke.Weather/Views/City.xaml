@@ -1,0 +1,42 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:model="clr-namespace:Smoke.Weather.Models"
+             xmlns:ViewModels="clr-namespace:Smoke.Weather.ViewModels" x:Class="Smoke.Weather.Views.City" 
+             xmlns:behavior="clr-namespace:Smoke.Weather.Behaviors"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             mc:Ignorable="d" Height="198" Width="215">
+    <UserControl.Background>
+        <ImageBrush ImageSource="/Smoke.Weather;component/Images/Common/CityBackground.png"/>
+    </UserControl.Background>
+    <UserControl.DataContext>
+        <ViewModels:CityViewModel/>
+    </UserControl.DataContext>
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="更改城市" FontSize="28" Margin="10,0,0,0"/>
+        <TextBlock Grid.Row="1" VerticalAlignment="Center" Margin="10,0,0,0"><Run Text="当前城市:"/><Run Text=" "/><Run Text="{Binding CurrentArea.Name}"/></TextBlock>
+        <ComboBox Grid.Row="2" Margin="5" ItemsSource="{Binding ZoneList}" DisplayMemberPath="Name" SelectedValuePath="ID" SelectedValue="{Binding CurrentArea.ZoneID}" IsSynchronizedWithCurrentItem="True"></ComboBox>
+        <ComboBox Name="cbArea" Grid.Row="3" Margin="5" ItemsSource="{Binding ZoneList/AreaList}" DisplayMemberPath="Name" SelectedValuePath="ID" SelectedValue="{Binding CurrentArea.ID}"></ComboBox>
+        <StackPanel Grid.Row="4" VerticalAlignment="Top" Orientation="Horizontal" FlowDirection="RightToLeft" Margin="0,10,5,0">
+            <Button Content="取消" Style="{StaticResource SubmitButton}" Command="{Binding CancelCommand, Mode=OneWay}">
+                <i:Interaction.Behaviors>
+                    <behavior:ChangeBackgroundOnClick Normal="{StaticResource Button_Normal}" OnClick="{StaticResource Button_Click}"></behavior:ChangeBackgroundOnClick>
+                </i:Interaction.Behaviors>
+            </Button>
+            <Button Content="确定" Command="{Binding SubmitCommand}" CommandParameter="{Binding SelectedItem,ElementName=cbArea}" Style="{StaticResource SubmitButton}">
+                <i:Interaction.Behaviors>
+                    <behavior:ChangeBackgroundOnClick Normal="{StaticResource Button_Normal}" OnClick="{StaticResource Button_Click}"></behavior:ChangeBackgroundOnClick>
+                </i:Interaction.Behaviors>
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

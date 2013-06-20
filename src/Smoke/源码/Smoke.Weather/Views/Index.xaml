@@ -1,0 +1,99 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+             xmlns:ViewModels="clr-namespace:Smoke.Weather.ViewModels" x:Class="Smoke.Weather.Views.Index" 
+             mc:Ignorable="d" Height="118" Width="215">
+    <UserControl.Resources>
+        <ToolTip x:Key="RefreshTimeToolTip">
+            <TextBlock><Run Text="上次刷新时间:"/><Run Text=" "/><Run Text="{Binding RefreshTime, StringFormat=HH:mm:ss}"/></TextBlock>
+        </ToolTip>
+    </UserControl.Resources>
+    <UserControl.Background>
+        <ImageBrush ImageSource="/Smoke.Weather;component/Images/Common/IndexBackground.png"/>
+    </UserControl.Background>
+    <UserControl.DataContext>
+        <ViewModels:IndexViewModel/>
+    </UserControl.DataContext>
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="36"/>
+            <RowDefinition Height="44"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="{Binding CurrentArea.Name}" VerticalAlignment="Top" FontSize="30" Margin="0,0,5,0">
+            <TextBlock.ToolTip>
+                <TextBlock Width="120" Text="{Binding WeatherInfo.TodayWeatherContent}" TextWrapping="Wrap"/>
+            </TextBlock.ToolTip>
+        </TextBlock>
+        <TextBlock TextWrapping="Wrap" Grid.Row="1" VerticalAlignment="Center" Margin="5, 2, 0, 0">            
+            <Run Text="{Binding WeatherInfo.TodayTemperature}"/>
+            <Run Text=" "/>
+            <Run Text="{Binding WeatherInfo.TodaySurvey}"/>
+            <LineBreak />
+            <Run Text="{Binding WeatherInfo.TodayWind}"/>
+            <TextBlock.ToolTip>
+                <Grid Width="450">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Border BorderThickness="0,0,1,0" Style="{StaticResource WeatherDetailBorder}">
+                        <StackPanel Margin="5,0">
+                            <TextBlock HorizontalAlignment="Center">今天</TextBlock>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding WeatherInfo.TodaySurvey}"/>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Image Source="{Binding WeatherInfo.TodayStartImage}" Style="{StaticResource WeatherDetailIcon}"/>
+                                <TextBlock VerticalAlignment="Center">~</TextBlock>
+                                <Image Source="{Binding WeatherInfo.TodayEndImage}" Style="{StaticResource WeatherDetailIcon}"/>
+                            </StackPanel>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding WeatherInfo.TodayTemperature}"></TextBlock>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding WeatherInfo.TodayWind}"></TextBlock>
+                        </StackPanel>
+                    </Border>
+                    <Border BorderThickness="0,0,1,0" Style="{StaticResource WeatherDetailBorder}" Grid.Column="1">
+                        <StackPanel Margin="5,0">
+                            <TextBlock HorizontalAlignment="Center">明天</TextBlock>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding WeatherInfo.TomorrowSurvey}" />
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Image Source="{Binding WeatherInfo.TomorrowStartImage}" Style="{StaticResource WeatherDetailIcon}" />
+                                <TextBlock VerticalAlignment="Center">~</TextBlock>
+                                <Image Source="{Binding WeatherInfo.TomorrowEndImage}" Style="{StaticResource WeatherDetailIcon}" />
+                            </StackPanel>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding WeatherInfo.TomorrowTemperature}" />
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding WeatherInfo.TomorrowWind}" />
+                        </StackPanel>
+                    </Border>
+                    <Border BorderThickness="0" Style="{StaticResource WeatherDetailBorder}" Grid.Column="2">
+                        <StackPanel Margin="5,0">
+                            <TextBlock HorizontalAlignment="Center">后天</TextBlock>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding WeatherInfo.HtSurvey}" />
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Image Source="{Binding WeatherInfo.HtStartImage}" Style="{StaticResource WeatherDetailIcon}" />
+                                <TextBlock VerticalAlignment="Center">~</TextBlock>
+                                <Image Source="{Binding WeatherInfo.HtEndImage}" Style="{StaticResource WeatherDetailIcon}" />
+                            </StackPanel>
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding WeatherInfo.HtTemperature}" />
+                            <TextBlock HorizontalAlignment="Center" Text="{Binding WeatherInfo.HtWind}" />
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </TextBlock.ToolTip>
+        </TextBlock>
+        <StackPanel Grid.Row="2" VerticalAlignment="Top" Orientation="Horizontal" FlowDirection="RightToLeft" Margin="0,7,5,0">
+            <Button Name="btnExit" Content="退出" Style="{DynamicResource OperationButton}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ei:CallMethodAction MethodName="Close" TargetObject="{Binding RelativeSource={RelativeSource Mode=FindAncestor,AncestorType=Window}}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="刷新" Command="{Binding RefreshCommand}" Style="{DynamicResource OperationButton}" ToolTip="{DynamicResource RefreshTimeToolTip}"/>
+            <Button Content="更换城市" Command="{Binding ChooseCityCommand}" Style="{DynamicResource OperationButton}"/>
+        </StackPanel>
+        <Image Grid.RowSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,0,0,0" Source="{Binding WeatherInfo.TodayStartImage}" Height="50"/>
+    </Grid>
+</UserControl>

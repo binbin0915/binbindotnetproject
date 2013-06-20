@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
+        xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" 
+        xmlns:Behaviors="clr-namespace:Smoke.Weather.Behaviors" 
+        xmlns:vm="clr-namespace:Smoke.Weather.ViewModels"
+        xmlns:w="clr-namespace:Smoke.Weather"
+        x:Class="Smoke.Weather.Shell"
+        xmlns:prism="http://www.codeplex.com/prism"
+        Title="Shell" ResizeMode="NoResize" MinHeight="118" MinWidth="215" AllowsTransparency="True" WindowStyle="None" SizeToContent="WidthAndHeight" Background="{x:Null}">    
+	<i:Interaction.Behaviors>
+		<Behaviors:DragWindowBehavior/>
+	</i:Interaction.Behaviors>
+    <ContentControl prism:RegionManager.RegionName="{x:Static w:RegionNames.MainRegion}">
+        
+    </ContentControl>	
+</Window>
